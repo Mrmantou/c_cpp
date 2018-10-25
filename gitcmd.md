@@ -50,7 +50,7 @@ git clone repository_url
 git status
 ```
 
-添加文件：
+添加文件及修改：
 ```
 git add .
 ```
@@ -59,6 +59,9 @@ git add .
 ```
 git commit -m "message"
 ```
+**Notice：**修改文件之后需要先add，再commit
+
+
 pull:
 ```
 git pull
