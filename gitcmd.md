@@ -68,3 +68,9 @@ push:
 ```
 git push origin master
 ```
+
+删除文件：
+```
+git rm
+git commit
+```
