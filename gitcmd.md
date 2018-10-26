@@ -9,10 +9,11 @@
 sudo apt install git
 ```
 
-配置用户名邮箱：
+配置用户名/邮箱/保存密码：
 ```
 git config --global user.name "xxx"
 git config --global user.email xxx@git.com
+git config --global credential.helper store
 ```
 查看配置文件中添加了刚刚配置的用户名和邮箱：
 ```
