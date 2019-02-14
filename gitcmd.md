@@ -75,6 +75,48 @@ git push origin master
 
 删除文件：
 ```
-git rm
+git rm [file]
 git commit
 ```
+
+show the file differences which are not yet staged:
+```
+git diff
+```
+
+> #### --*git branch*
+
+list all local branches in current repository:
+```
+git branch
+```
+
+create new branch:
+```
+git branch [branch name]
+```
+
+delete the feature branch:
+```
+git branch -d [branch name]
+```
+
+> #### --*git checkout*
+
+switch from one branch to another:
+```
+git checkout [branch name]
+```
+
+creates a new branch and also switches to it:
+```
+git checkout -b [branch name]
+```
+
+> #### --*git merge*
+
+merges the specified branch's history into the curent branch:
+```
+git merge [branch name]
+```
+在开发分支上修改代码之后之后需要先切换到base branch上使用merge命令进行合并
